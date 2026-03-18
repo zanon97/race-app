@@ -1,0 +1,42 @@
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+
+:root, [data-bs-theme=light] {
+
+    --bs-primary-rgb: 41, 197, 207 !important;
+        
+    }
+    
+    .btn-primary{
+       
+            --bs-btn-color: #fff!important;
+            --bs-btn-bg: #29c5cf!important;
+            --bs-btn-border-color: #29c5cf!important;
+            --bs-btn-hover-color: #fff!important;
+            --bs-btn-hover-bg: #20858c!important;
+            --bs-btn-hover-border-color: #20858c!important;
+            --bs-btn-focus-shadow-rgb: 49, 132, 253!important;
+            --bs-btn-active-color: #fff!important;
+            --bs-btn-active-bg: #20858c!important;
+            --bs-btn-active-border-color: #20858c!important;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125)!important;
+            --bs-btn-disabled-color: #fff!important;
+            --bs-btn-disabled-bg: #29c5cf!important;
+            --bs-btn-disabled-border-color: #29c5cf!important;
+        
+    }
+    
+
+    #detailMap{
+        height: 300px;
+        background-color: #ccc;
+
+    }
+   
+
+    .leaflet-control-attribution{
+        color: white !important;
+        background-color: black !important;
+    }
